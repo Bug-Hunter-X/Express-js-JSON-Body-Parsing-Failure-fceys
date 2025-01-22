@@ -1,0 +1,1 @@
+This repository demonstrates a common bug in Express.js applications where the JSON request body is not parsed correctly, leading to an empty req.body.  The bug.js file contains the erroneous code, while bugSolution.js provides the corrected version. The issue arises from incorrect placement or missing configuration of the express.json() middleware.
